@@ -1,9 +1,12 @@
 # media_player
 
 <h2 align='center'>Carousal Slider with Custom Indicator</h2>
+
+
 * To implement a carousel slider in a Flutter app, you can use the popular carousel_slider package. This package provides a highly customizable slider that allows you to display a sequence of widgets (such as images or other content) in a carousel format.
 
-1. Add the Dependency
+
+### 1. Add the Dependency
 * First, add the carousel_slider package to your pubspec.yaml file:
 
 ```yaml
@@ -14,18 +17,19 @@ dependencies:
 ```
 * Replace ^4.0.0 with the latest version of the package available on pub.dev.
 
-2. Install the Package
+### 2. Install the Package
 * Run the following command in your terminal to install the package:
 * ```sh
   flutter pub get
   ```
 
-3. Import the Package
+### 3. Import the Package
 Import the carousel_slider package in the Dart file where you want to use the carousel:
 ```dart
 import 'package:carousel_slider/carousel_slider.dart';
 ```
-5. Create the Carousel Slider
+
+### 4. Create the Carousel Slider
 ```dart
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
