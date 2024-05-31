@@ -16,6 +16,9 @@ dependencies:
 
 2. Install the Package
 * Run the following command in your terminal to install the package:
+* ```sh
+  flutter pub get
+  ```
 
 3. Import the Package
 Import the carousel_slider package in the Dart file where you want to use the carousel:
