@@ -38,6 +38,7 @@ dependencies:
   carousel_slider: ^4.2.1
   google_fonts: any
   provider: any
+  video_player: any
 
 dev_dependencies:
   flutter_test:
@@ -67,6 +68,7 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - asset/img/
+    - asset/video/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

@@ -5,8 +5,8 @@ Container feed_message() {
     height: 120,
     width: double.infinity,
     padding: EdgeInsets.all(12),
-    decoration: const BoxDecoration(
-      color: Colors.black,
+    decoration:  BoxDecoration(
+      color: Colors.grey.shade200,
       borderRadius: BorderRadius.vertical(
         top: Radius.circular(20),
       ),
@@ -17,7 +17,7 @@ Container feed_message() {
         Text(
           'Your Feed',
           style: TextStyle(
-              fontSize: 22, fontWeight: FontWeight.w500, color: Colors.white),
+              fontSize: 22, fontWeight: FontWeight.w500, color: Colors.black),
         ),
         SizedBox(
           height: 10,

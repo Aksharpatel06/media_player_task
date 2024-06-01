@@ -13,8 +13,9 @@ Row slider_indeicators(SliderProvider providerTrue) {
         width: 40,
         margin: const EdgeInsets.symmetric(horizontal: 7),
         decoration: BoxDecoration(
-          color: Colors.black,
           borderRadius: BorderRadius.circular(10),
+          border: Border.all(color: Colors.black, width: 1.2),
+
         ),
       )
           : Container(
@@ -23,7 +24,7 @@ Row slider_indeicators(SliderProvider providerTrue) {
         margin: const EdgeInsets.all(2),
         decoration: BoxDecoration(
           shape: BoxShape.circle,
-          border: Border.all(color: Colors.black, width: 1.2),
+          color: Colors.black,
         ),
       ),
     ),
