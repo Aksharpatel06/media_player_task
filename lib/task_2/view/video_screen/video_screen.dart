@@ -30,7 +30,6 @@ class _VideoScreenState extends State<VideoScreen> {
   Widget build(BuildContext context) {
 
     double height = MediaQuery.of(context).size.height;
-    double width = MediaQuery.of(context).size.width;
     return Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
