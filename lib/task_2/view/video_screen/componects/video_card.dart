@@ -43,11 +43,11 @@ class _VideoCardState extends State<VideoCard> {
   @override
   Widget build(BuildContext context) {
     return AnimatedContainer(
-      duration: Duration(milliseconds:250),
-      margin: widget.isSelected? EdgeInsets.symmetric(
+      duration: const Duration(milliseconds:250),
+      margin: widget.isSelected? const EdgeInsets.symmetric(
         vertical: 16,
         horizontal: 4,
-      ):EdgeInsets.symmetric(
+      ):const EdgeInsets.symmetric(
         vertical: 32,
         horizontal: 16,
       ),

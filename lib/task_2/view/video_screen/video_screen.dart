@@ -33,10 +33,12 @@ class _VideoScreenState extends State<VideoScreen> {
     double width = MediaQuery.of(context).size.width;
     return Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SizedBox(
             height: height*0.7,
             child: PageView.builder(
+              itemCount: videos.length,
               controller: _pageController,
               itemBuilder: (context, index) {
                 return VideoCard(assetPath: videos[index],isSelected: _selectedIndex==index,);
