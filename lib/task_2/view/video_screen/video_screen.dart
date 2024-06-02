@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../../modal/video_list.dart';
 import 'componects/video_card.dart';
 
-PageController _pageController = PageController();
 class VideoScreen extends StatefulWidget {
   const VideoScreen({super.key});
 
@@ -12,6 +11,7 @@ class VideoScreen extends StatefulWidget {
 }
 
 class _VideoScreenState extends State<VideoScreen> {
+  late PageController _pageController;
 
   int _selectedIndex=0;
   @override
