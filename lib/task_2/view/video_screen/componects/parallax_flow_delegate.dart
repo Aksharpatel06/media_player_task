@@ -31,7 +31,7 @@ class ParallaxFlowDelegate extends FlowDelegate {
     // scrollable area.
     final viewportDimension = scrollable.position.viewportDimension;
     final scrollFraction =
-    (listItemOffset.dx / viewportDimension).clamp(0.0, 1.0);
+        (listItemOffset.dx / viewportDimension).clamp(0.0, 1.0);
 
     // Calculate the horizontal alignment of the background
     // based on the scroll percent.
@@ -50,7 +50,7 @@ class ParallaxFlowDelegate extends FlowDelegate {
     context.paintChild(
       0,
       transform:
-      Transform.translate(offset: Offset(childRect.left, 0.0)).transform,
+          Transform.translate(offset: Offset(childRect.left, 0.0)).transform,
     );
   }
 

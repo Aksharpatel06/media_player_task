@@ -3,7 +3,6 @@ import 'package:media_player_example/task_1/provider/slider_provider.dart';
 import 'package:media_player_example/task_2/view/video_screen/video_screen.dart';
 import 'package:provider/provider.dart';
 
-import 'task_1/view/media_home/media_home_screen.dart';
 
 void main() {
   runApp(MultiProvider(providers: [
