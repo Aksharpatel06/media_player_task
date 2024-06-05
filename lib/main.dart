@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:media_player_example/task_1/provider/slider_provider.dart';
-import 'package:media_player_example/task_2/view/video_screen/video_screen.dart';
+import 'package:media_player_example/task_3/view/video_audio.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: VideoScreen(),
+      home: VideoAudioScreen(),
     );
   }
 }

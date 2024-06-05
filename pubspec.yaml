@@ -39,6 +39,7 @@ dependencies:
   google_fonts: any
   provider: any
   video_player: any
+  chewie: ^1.8.1
 
 dev_dependencies:
   flutter_test:
